@@ -1,0 +1,10 @@
+# Easy Read segmentation dataset files
+*.seg
+
+# Specific files (if you only want these ignored)
+en.dev.seg
+en.test.seg
+en.train.seg
+
+#data file
+*.jsonl
