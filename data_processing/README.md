@@ -6,3 +6,5 @@ Steps:
 Pipeline:
 [seg file] --segmentation.py--> [data1.jsonl] --rewrite_easy_segments.py--> [rewritten_data.jsonl] --post-processing.py--> [segmentation_fixes.jsonl] (where you can manually edit the segments with issues before writing them back to the full jsonl) + [post_processed_segmentation.py]
 
+Input file: any seg file
+FINAL OUTPUT FILE: post_processing_segmentation.jsonl

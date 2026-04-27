@@ -6,5 +6,5 @@ en.dev.seg
 en.test.seg
 en.train.seg
 
-#data file
-*.jsonl
+
+.env
