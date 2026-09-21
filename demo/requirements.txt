@@ -1,0 +1,4 @@
+streamlit>=1.25.0
+networkx>=2.8.0
+penman>=1.2.0
+openai>=1.0.0

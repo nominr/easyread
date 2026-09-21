@@ -1,0 +1,95 @@
+[
+  {
+    "id": "dataset-00004",
+    "category": "Inclusion Europe Dataset",
+    "title": "Guardianship & Voting Rights in EU Countries",
+    "original_text": "In 9 EU countries when you get a guardian you loose the right to vote.",
+    "stats": {
+      "num_nodes": 14,
+      "num_sentences": 1,
+      "avg_nodes_per_sent": 14.0,
+      "graph_density": 0.15,
+      "max_path_length": 5,
+      "num_coref_edges": 1,
+      "top_concepts": [["country", 4], ["vote", 4], ["guardian", 3], ["right", 3], ["person", 2]]
+    },
+    "top_concepts": [
+      ["EU countries", 0.38],
+      ["guardian", 0.32],
+      ["right to vote", 0.30],
+      ["rights", 0.22]
+    ],
+    "baseline_output": "In 9 European countries, if you have a guardian you cannot vote.",
+    "graph_guided_output": "1. There are 9 EU countries.\n2. When you get a guardian, you lose rights.\n3. You lose the right to vote."
+  },
+  {
+    "id": "dataset-00002",
+    "category": "Inclusion Europe Dataset",
+    "title": "Institutional Segregation of People with Intellectual Disabilities",
+    "original_text": "If people with intellectual disabilities are placed there they will be segregated from the rest of society.",
+    "stats": {
+      "num_nodes": 16,
+      "num_sentences": 1,
+      "avg_nodes_per_sent": 16.0,
+      "graph_density": 0.13,
+      "max_path_length": 6,
+      "num_coref_edges": 2,
+      "top_concepts": [["person", 5], ["segregate", 4], ["disability", 3], ["society", 3], ["place", 2]]
+    },
+    "top_concepts": [
+      ["intellectual disabilities", 0.40],
+      ["people", 0.35],
+      ["segregated", 0.28],
+      ["society", 0.24]
+    ],
+    "baseline_output": "If people with intellectual disabilities live there, they are separated from the rest of society.",
+    "graph_guided_output": "1. People with intellectual disabilities are placed there.\n2. They will be segregated from the rest of society.\n3. This separates them from others.\n4. They are kept apart."
+  },
+  {
+    "id": "dataset-00025",
+    "category": "Inclusion Europe Dataset",
+    "title": "Support Funds for Families in Ukraine",
+    "original_text": "The members of VGO Coalition thanks Inclusion Europe and its members for creating a fund to help families of people with intellectual disabilities in Ukraine.",
+    "stats": {
+      "num_nodes": 22,
+      "num_sentences": 1,
+      "avg_nodes_per_sent": 22.0,
+      "graph_density": 0.11,
+      "max_path_length": 7,
+      "num_coref_edges": 3,
+      "top_concepts": [["member", 6], ["Inclusion Europe", 4], ["fund", 4], ["families", 3], ["Ukraine", 2]]
+    },
+    "top_concepts": [
+      ["VGO Coalition", 0.36],
+      ["Inclusion Europe", 0.33],
+      ["fund", 0.29],
+      ["intellectual disabilities", 0.25],
+      ["Ukraine", 0.22]
+    ],
+    "baseline_output": "The VGO Coalition thanks Inclusion Europe for making a fund to help families with intellectual disabilities in Ukraine.",
+    "graph_guided_output": "1. The members of VGO Coalition say thank you.\n2. They thank Inclusion Europe and its members.\n3. They created a fund to help people.\n4. The fund helps families of people with intellectual disabilities.\n5. These families live in Ukraine."
+  },
+  {
+    "id": "dataset-00047",
+    "category": "Inclusion Europe Dataset",
+    "title": "European Commission Leadership & Roles",
+    "original_text": "Katarina is the director for Social Rights and Inclusion at the directorate general for employment, social affairs and inclusion of the European Commission.",
+    "stats": {
+      "num_nodes": 20,
+      "num_sentences": 1,
+      "avg_nodes_per_sent": 20.0,
+      "graph_density": 0.12,
+      "max_path_length": 6,
+      "num_coref_edges": 2,
+      "top_concepts": [["Katarina", 5], ["director", 4], ["Inclusion", 4], ["European Commission", 3], ["employment", 2]]
+    },
+    "top_concepts": [
+      ["Katarina", 0.42],
+      ["Social Rights and Inclusion", 0.35],
+      ["directorate general", 0.28],
+      ["European Commission", 0.25]
+    ],
+    "baseline_output": "Katarina works as director for Social Rights and Inclusion at the European Commission.",
+    "graph_guided_output": "1. Katarina is the director for Social Rights and Inclusion.\n2. She works at the directorate general for employment.\n3. It is part of social affairs and inclusion of the European Commission."
+  }
+]
