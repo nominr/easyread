@@ -1,6 +1,5 @@
 ---
 title: EasyRead Graph Guided Simplification
-emoji: 📖
 colorFrom: blue
 colorTo: green
 sdk: streamlit

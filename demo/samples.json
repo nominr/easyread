@@ -3,7 +3,7 @@
     "id": "dataset-00004",
     "category": "Inclusion Europe Dataset",
     "title": "Guardianship & Voting Rights in EU Countries",
-    "original_text": "In 9 EU countries when you get a guardian you loose the right to vote.",
+    "original_text": "In 9 EU countries when you get a guardian you lose the right to vote.",
     "stats": {
       "num_nodes": 14,
       "num_sentences": 1,
@@ -91,5 +91,53 @@
     ],
     "baseline_output": "Katarina works as director for Social Rights and Inclusion at the European Commission.",
     "graph_guided_output": "1. Katarina is the director for Social Rights and Inclusion.\n2. She works at the directorate general for employment.\n3. It is part of social affairs and inclusion of the European Commission."
+  },
+  {
+    "id": "dataset-00088",
+    "category": "Legal Contracts Dataset",
+    "title": "Tenancy Termination & Written Notice Clause",
+    "original_text": "The tenant shall have the right to terminate the tenancy agreement upon provision of written notice of not less than 28 days to the landlord.",
+    "stats": {
+      "num_nodes": 18,
+      "num_sentences": 1,
+      "avg_nodes_per_sent": 18.0,
+      "graph_density": 0.14,
+      "max_path_length": 6,
+      "num_coref_edges": 2,
+      "top_concepts": [["tenant", 4], ["landlord", 4], ["notice", 3], ["agreement", 3], ["terminate", 2]]
+    },
+    "top_concepts": [
+      ["tenant", 0.44],
+      ["landlord", 0.38],
+      ["tenancy agreement", 0.33],
+      ["written notice", 0.29],
+      ["28 days", 0.25]
+    ],
+    "baseline_output": "The tenant can end the rental agreement by giving at least 28 days written notice to the landlord.",
+    "graph_guided_output": "1. The tenant can end the rental agreement.\n2. The tenant must give written notice to the landlord.\n3. The tenant must give at least 28 days notice."
+  },
+  {
+    "id": "dataset-00104",
+    "category": "Employment & Professional Testing",
+    "title": "Proofreader Applicant Testing Requirements",
+    "original_text": "Proofreader applicants are tested primarily on their spelling, speed, and skill in finding errors in the sample text. Toward that end, they may be given a list of ten or twenty classically difficult words and a proofreading test, both tightly timed.",
+    "stats": {
+      "num_nodes": 25,
+      "num_sentences": 2,
+      "avg_nodes_per_sent": 12.5,
+      "graph_density": 0.11,
+      "max_path_length": 7,
+      "num_coref_edges": 3,
+      "top_concepts": [["proofreader", 5], ["test", 4], ["spelling", 3], ["errors", 3], ["timed", 2]]
+    },
+    "top_concepts": [
+      ["proofreader applicants", 0.42],
+      ["spelling and speed", 0.36],
+      ["finding errors", 0.30],
+      ["proofreading test", 0.28],
+      ["tightly timed", 0.21]
+    ],
+    "baseline_output": "Proofreading job applicants are tested on spelling, speed, and finding errors. They must complete a word list and timed test.",
+    "graph_guided_output": "1. Proofreader applicants must take tests.\n2. Tests measure spelling, speed, and finding errors.\n3. Applicants get a list of difficult words.\n4. Applicants complete a timed proofreading test."
   }
 ]
